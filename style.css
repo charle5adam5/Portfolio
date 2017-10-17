@@ -1,0 +1,88 @@
+body {
+  display: grid;
+  font-family: 'Righteous', cursive;
+  transform: translate(0%, 2em);
+}
+
+#wrap {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+}
+
+#box {
+  box-shadow: 1px 1px 1px crimson;
+  padding: 1em;
+}
+
+div {
+ margin: 0 auto;
+}
+
+#logo {
+ border-radius: 50%;
+ width: 200px;
+ height: auto;
+ margin-bottom: 1em;
+ margin-top: 1em;
+}
+
+
+nav {
+ display: none;
+ width: 200px;
+ height: auto;
+ overflow: hidden;
+ margin: 0 auto;
+ margin-top: 1em;
+ animation: slideDown 3s ease;
+}
+@keyframes slideDown {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+#icon {
+  display: flex;
+  justify-content: center;
+  margin-top: -5em;
+}
+#icon:hover {
+  cursor: pointer;
+}
+#icon:after {
+  content: "\232c";
+  color: crimson;
+  font-size: 10em;
+  padding-bottom: .3em;
+}
+.rotate {
+ animation: rotate 2s ease-in-out;
+}
+@keyframes rotate {
+ from {
+  transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(3600deg);
+ }
+}
+
+nav a {
+ visibility: hidden;
+ text-decoration: none;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ font-size: 1.25em;
+ text-align: center;
+ margin-bottom: 1em;
+ padding: 1px 10px 1px 10px;
+ background: linear-gradient(45deg, #3a6186, #89253e);
+}
