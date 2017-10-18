@@ -14,6 +14,7 @@ body {
 #box {
   box-shadow: 1px 1px 1px crimson;
   padding: 1em;
+  height: 400px;
 }
 
 div {
@@ -58,7 +59,7 @@ nav {
 #icon:after {
   content: "\232c";
   color: crimson;
-  font-size: 10em;
+  font-size: 200px;
   padding-bottom: .3em;
 }
 .rotate {
