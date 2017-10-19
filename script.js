@@ -1,4 +1,4 @@
-var nav = document.getElementById("nav");
+var nav = document.getElementById("home-nav");
 var anchor = nav.getElementsByTagName("a");
 var icon = document.getElementById("icon");
 
