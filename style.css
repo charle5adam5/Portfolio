@@ -52,17 +52,16 @@ nav {
 #icon {
   display: flex;
   justify-content: center;
-  align-self: center;
+  margin: 20%;
+}
+#icon img {
+  height: 5em;
+  width: 5em;
 }
 #icon:hover {
   cursor: pointer;
 }
-#icon:after {
-  content: "\232c";
-  color: crimson;
-  font-size: 5em;
-  padding-bottom: .3em;
-}
+
 .rotate {
  animation: rotate 2s ease-in-out;
 }
