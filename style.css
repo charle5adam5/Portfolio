@@ -198,7 +198,7 @@ footer img:hover {
  background: linear-gradient(45deg, #3a6186, #89253e);
  color: crimson;
  padding: 2em;
- width: 20em;
+ width: 19em;
 }
 #info a {
  text-decoration: none;
@@ -210,12 +210,4 @@ footer img:hover {
   font-size: 1.5em;
 }
 
-#email:after {
- content: "\2709";
- font-size: 1em;
-}
-#phone:after {
- content: "\2706";
- font-size: 1em;
-}
 /* end contact */
