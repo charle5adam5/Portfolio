@@ -14,7 +14,7 @@ body {
   box-shadow: 1px 1px 1px crimson;
   padding: 1em;
   width: 200px;
-  height: 400px;
+  height: 500px;
 }
 
 div {
@@ -25,29 +25,17 @@ div {
  border-radius: 50%;
  width: 200px;
  height: auto;
- margin-bottom: 1em;
- margin-top: 1em;
 }
 
 #home-nav {
- display: none;
+ display: flex;
+ flex-flow: column;
  width: 200px;
  height: auto;
- overflow: hidden;
  margin: 0 auto;
  margin-top: 1em;
- animation: slideDown 3s ease;
-}
-@keyframes slideDown {
-  from {
-    height: 0%;
-  }
-  to {
-    height: 100%;
-  }
 }
 #home-nav a {
- visibility: hidden;
  text-decoration: none;
  color: white;
  display: flex;
