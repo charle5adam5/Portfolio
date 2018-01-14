@@ -3,6 +3,7 @@ body {
   transform: translate(0%, 2em);
 }
 
+/* home */
 #wrap {
   display: flex;
   align-items: center;
@@ -14,7 +15,7 @@ body {
   box-shadow: 1px 1px 1px crimson;
   padding: 1em;
   width: 200px;
-  height: 500px;
+  height: 400px;
 }
 
 div {
@@ -48,27 +49,21 @@ div {
  background: linear-gradient(45deg, #3a6186, #89253e);
 }
 
-#icon {
+footer {
   display: flex;
-  justify-content: center;
-  margin: 20%;
+  justify-content: space-around;
+  margin: 0 auto;
 }
-#icon img {
-  height: 5em;
-  width: 5em;
+footer img {
+ height: 2.5em;
+ width: 2.5em;
+ margin-left: .5em;
+ margin-right: .5em;
 }
-.rotate {
- animation: rotate 2s ease-in-out;
+footer img:hover {
+ cursor: pointer;
 }
-@keyframes rotate {
- from {
-  transform: rotate(0deg);
- }
- to {
-  transform: rotate(3600deg);
- }
-}
-/* about */
+
 /* nav style */
 nav {
   display: flex;
@@ -107,8 +102,10 @@ nav a:hover {
  height: auto;
 }
 
+/* About */
+
 #bio {
- background: linear-gradient(45deg, #3a6186, #89253e);
+ /* background: linear-gradient(45deg, #3a6186, #89253e); */
  padding: 0.5em;
  width: 70%;
 }
@@ -116,28 +113,16 @@ nav a:hover {
  background: white;
  color: crimson;
  font-family: 'Asap', sans-serif;
- font-size: 1.5em;
+ font-size: 1.25em;
  padding: 0.5em;
+}
+.p:before {
+  content: '\25cf';
 }
 #end {
   text-align: center;
 }
 
- footer {
-   display: flex;
-   align-items: center;
-   margin: 0 auto;
-   padding: 1em;
- }
-footer img {
-  height: 4em;
-  width: 4em;
-  margin-left: .5em;
-  margin-right: .5em;
-}
-footer img:hover {
-  cursor: pointer;
-}
 /* end about */
 
 /* projects */
