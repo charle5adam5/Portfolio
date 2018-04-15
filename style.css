@@ -103,15 +103,17 @@ nav a:hover {
 }
 
 /* About */
+#self {
+  border: inset crimson 3px;
+}
 
 #bio {
- /* background: linear-gradient(45deg, #3a6186, #89253e); */
+  background: linear-gradient(45deg, #3a6186, #89253e); 
  padding: 0.5em;
- width: 70%;
+ width: 40%;
 }
 #bio p {
- background: white;
- color: crimson;
+ color: white;
  font-family: 'Asap', sans-serif;
  font-size: 1.25em;
  padding: 0.5em;
