@@ -12,10 +12,11 @@ body {
 }
 
 #box {
-  box-shadow: 1px 1px 1px crimson;
+  box-shadow: 2px 2px 2px crimson;
   padding: 1em;
   width: 200px;
   height: 400px;
+  margin: 10vh;
 }
 
 div {
@@ -110,6 +111,7 @@ nav a:hover {
 #bio {
   background: linear-gradient(45deg, #3a6186, #89253e); 
  padding: 0.5em;
+ min-width: 300px;
  width: 40%;
 }
 #bio p {
